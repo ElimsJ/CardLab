@@ -27,11 +27,16 @@ public class Card {
 
     public boolean equals(Card otherCard)
     {
+        if(otherCard.getpointValue() == this.pointValue)
+        {
+            return true;
+        }
         return false;
     }
 
     public String toString()
     {
+
 
         return null;
     }
